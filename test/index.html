@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Test</title>
+
   <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
   <script type="text/javascript" src="../build/angular-tagger.js"></script>
   <script type="text/javascript">
@@ -63,7 +64,7 @@
     <pre>{{ tags | json }}</pre>
 
     single: <tagger tabindex="-1" id="s1" ng-model="font2" options="fonts" placeholder="Choose font" single display-fun="showName" create-fun="createName" on-select="selected"></tagger>
-    single: <tagger tabindex="-1" id="s1" ng-model="font" options="fonts" placeholder="Choose font" single display-fun="showName" create-fun="createName" on-select="selected"></tagger>
+    single: <tagger tabindex="-1" id="s2" ng-model="font" options="fonts" placeholder="Choose font" single display-fun="showName" create-fun="createName" on-select="selected"></tagger>
     <pre>{{ font | json }}</pre>
     <button ng-click='foc()'>Focus</button>
 
